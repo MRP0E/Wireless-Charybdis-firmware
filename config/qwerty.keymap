@@ -33,7 +33,6 @@
     // #define FUNC    2
     // #define MOUSE   3
     // #define SCROLL  4
-    // #define BT      5
 
     keymap {
         compatible = "zmk,keymap";
@@ -77,12 +76,12 @@
         MOUSE {
             display-name = "Mouse";
             bindings = <
-&none  &none     &none      &none       &none              &none                &none     &none     &none  &none  &none  &sys_reset
-&none  &kp LALT  &kp LCTRL  &kp LSHIFT  &none              &none                &none     &none     &none  &none  &none  &none
-&none  &none     &none      &none       &mo 4              &none                &none     &mo 4     &none  &none  &none  &none
-&none  &none     &none      &none       &to 4              &sw_red_passwd       &none     &to 4     &none  &none  &none  &none
-                            &mkp MB1    &yellow_passwd     &hw_red_passwd       &mkp MB3  &mkp MB1
-                                        &mkp MB2           &mkp MB3             &mkp MB2
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4          &none     &none     &none  &none  &none  &sys_reset
+&none           &kp LALT      &kp LCTRL     &kp LSHIFT    &none              &none                 &none     &none     &none  &none  &none  &none
+&none           &none         &none         &none         &mo 4              &none                 &none     &mo 4     &none  &none  &none  &none
+&bt BT_CLR_ALL  &none         &none         &none         &to 4              &none                 &none     &to 4     &none  &none  &none  &studio_unlock
+                                            &mkp MB1      &none              &none                 &mkp MB3  &mkp MB1
+                                            &mkp MB2      &mkp MB3           &mkp MB2
             >;
         };
 
@@ -95,18 +94,6 @@
 &none  &none  &none  &none  &to 0  &none    &none  &none  &none  &none  &none  &none
                      &none  &none  &none    &none  &none
                             &none  &none    &none
-            >;
-        };
-
-        BT {
-            display-name = "Bluetooth";
-            bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 &none  &none  &none  &none  &none  &none
-&none       &none         &none         &none         &none         &none        &none  &none  &none  &none  &none  &none
-&none       &none         &none         &none         &none         &none        &none  &none  &none  &none  &none  &none
-&none       &none         &none         &none         &none         &none        &none  &none  &none  &none  &none  &none
-                                        &none         &none         &none        &none  &none
-                                                      &none         &none        &none
             >;
         };
     };
