@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - '&sys_reset'
-  - BT CLO ALL
+  - BT CLR ALL
   - LALT
   - LCTRL
   - LSHIFT
