@@ -286,15 +286,15 @@ layers:
   - ''
   - ''
 combos:
-- p: [12, 23, 50]
+- p: [12, 50]
   k: {t: Numbers, h: toggle}
   l: [Base]
-- p: [12, 23, 54]
+- p: [12, 54]
   k: {t: Function, h: toggle}
   l: [Base]
-- p: [12, 23, 50]
+- p: [12, 50]
   k: {t: Base, h: toggle}
   l: [Numbers]
-- p: [12, 23, 54]
+- p: [12, 54]
   k: {t: Base, h: toggle}
   l: [Function]
