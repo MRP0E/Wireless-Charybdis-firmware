@@ -75,7 +75,7 @@ layers:
   - LCTRL
   - LSHIFT
   - LGUI
-  - '&C_AL_CALC'
+  - AL CALC
   - KP SUBTRACT
   - KP 7
   - KP 8
