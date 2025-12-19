@@ -4,25 +4,25 @@
 
         combo_0_to_1 {
             bindings = <&to 1>;
-            key-positions = <24 35 50>;
+            key-positions = <12 23 50>;
             layers = <0>;
 	   };
 
        combo_0_to_2 {
             bindings = <&to 2>;
-            key-positions = <24 35 54>;
+            key-positions = <12 23 54>;
             layers = <0>;
 	   };
 
        combo_1_to_0 {
             bindings = <&to 0>;
-            key-positions = <24 35 50>;
+            key-positions = <12 23 50>;
             layers = <1>;
 	   };
 
        combo_2_to_0 {
             bindings = <&to 0>;
-            key-positions = <24 35 54>;
+            key-positions = <12 23 54>;
             layers = <2>;
 	   };
 
