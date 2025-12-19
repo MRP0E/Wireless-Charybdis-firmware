@@ -75,7 +75,7 @@ layers:
   - LCTRL
   - LSHIFT
   - LGUI
-  - ''
+  - '&C_AL_CALC'
   - KP SUBTRACT
   - KP 7
   - KP 8
@@ -105,11 +105,11 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - KP EQUAL
+  - KP ENTER
   - SPACE
   - LEFT CONTROL
   - {type: held}
-  - CALC
+  - KP CLEAR
   - '='
   - LEFT SHIFT
   - ''
