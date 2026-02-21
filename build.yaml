@@ -4,6 +4,7 @@ board:
   - nice_nano
 
 shield:
+  - tester_pro_micro
   - charybdis_left
   - charybdis_right
   - charybdis_dongle
@@ -18,9 +19,9 @@ keymap:
   - qwerty
 
 include:
-  # - board: nice_nano
-  #   shield: charybdis_right
-  #   keymap: qwerty
-  #   snippet: studio-rpc-usb-uart
+  - board: nice_nano
+    shield: charybdis_right
+    keymap: qwerty
+    snippet: studio-rpc-usb-uart
   - board: nice_nano
     shield: tester_pro_micro
